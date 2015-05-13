@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\Mapping\ManyToMany;
 
 /**
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\GroupRepository")
  * @ORM\Table(name="groups")
  */
 class Group
