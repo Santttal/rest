@@ -9,7 +9,7 @@ use Doctrine\ORM\Mapping\ManyToMany;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="group1")
+ * @ORM\Table(name="groups")
  */
 class Group
 {

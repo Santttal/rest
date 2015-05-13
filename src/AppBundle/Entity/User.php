@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping\ManyToMany;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="user")
+ * @ORM\Table(name="users")
  */
 class User
 {
